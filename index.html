@@ -3,77 +3,102 @@
     <head>
         <meta charset="UTF-8">
         <title>Odin Landing Page</title>
+        <link rel="stylesheet" href="../Odin-Landing-Page/styles.css"></a>
     </head>
 
     <body>
-        <div class="section-one">
+        <div id="main">
         <header>
-            <div class="logo">Rainbow Logo</div>
-            <div class="header-links">Header Link 1</div>
-            <div class="header-links">Header Link 2</div>
-            <div class="header-links">Header Link 3</div>                
-        </header>
-
-        <h1>This Song is Awesome</h1>
-        <p>This website has some subtext that goes here under the main title. It's a smaller font and the colour is a lower contrast.</p>
-        <button>Sign up</button>
-
-        <div>This is a placeholder for a rainbow</div>
-        </div>
-
-        <div class="section-two">
-            <h3 class="rando">The colours of a Rainbow.</h3>
-
-            <div class="red">
-                <! put image here >
-                <p>This is the R in ROYGBIV</p>
+            
+            <div class="logo">
+                <img src="../Odin-Landing-Page/Images/Rainbow logo.png"
+                alt="picture of rainbow over blob of multi-coloured paint splatter">
             </div>
-
-            <div class="orange">
-                <! put image here >
-                <p>This is the O in ROYGBIV</p>
-            </div>
-
-            <div class="yellow">
-                <! put image here >
-                <p>This is the Y in ROYGBIV</p>
-            </div>
-
-            <div class="green">
-                <! put image here >
-                <p>This is the G in ROYGBIV</p>
-            </div>
-
-            <div class="blue">
-                <! put image here >
-                <p>This is the B in ROYGBIV</p>
+            <div class="header-links">
+                <a href="#section-one">Rainbow Colours</a>
+                <a href="#section-two">The Connection</a>
+                <a href="#section-three">Kermit's Lyrics</a>
             </div>
             
-            <div class="indigo">
-                <! put image here >
-                <p>This is the I in ROYGBIV</p>
-            </div>
+        </header>
 
-            <div class="violet">
-                <! put image here >
-                <p>This is the V in ROYGBIV</p>
+    <div class="hero">
+        <div class="hero-text">
+            <h1 class="banner-text">This Song is Awesome</h1>
+            <p class="sing">Press the button to hear Kermit sing or scroll down to get the lyrics and sing it yourself.</p>
+            
+            <div class="button">
+                <a href="https://www.google.com/search?q=the+rainbow+connection&oq=&aqs=chrome.0.35i39i362l8.29681729j0j15&sourceid=chrome&ie=UTF-8" target="_blank"><button>Play Song</button></a>
             </div>
         </div>
 
-        <div class="section-three">
+        <div class="placeholder">This is a placeholder for a rainbow. or a pot of gold.</div>
+        </div>
+    </div>
+
+        <div id="section-one">
+            <h3 class="rando">The Colours of a Rainbow.</h3>
+
+            <div class="paint">
+                <div class="red">
+                    <img src="../Odin-Landing-Page/Images/ROYGBIV/Red.jpg">
+                    <p>This is the R in ROYGBIV</p>
+                </div>
+
+                <div class="orange">
+                    <img src="../Odin-Landing-Page/Images/ROYGBIV/Orange.jpg">
+                    <p>This is the O in ROYGBIV</p>
+                </div>
+
+                <div class="yellow">
+                    <img src="../Odin-Landing-Page/Images/ROYGBIV/Yellow.jpg">
+                    <p>This is the Y in ROYGBIV</p>
+                </div>
+
+                <div class="green">
+                    <img src="../Odin-Landing-Page/Images/ROYGBIV/Green.jpg">
+                    <p>This is the G in ROYGBIV</p>
+                </div>
+
+                <div class="blue">
+                    <img src="../Odin-Landing-Page/Images/ROYGBIV/Blue.jpg">
+                    <p>This is the B in ROYGBIV</p>
+                </div>
+                
+                <div class="indigo">
+                    <img src="../Odin-Landing-Page/Images/ROYGBIV/Indigo.jpg">
+                    <p>This is the I in ROYGBIV</p>
+                </div>
+
+                <div class="violet">
+                    <img src="../Odin-Landing-Page/Images/ROYGBIV/Violet.jpg">
+                    <p>This is the V in ROYGBIV</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="section-two">
             <p>Someday we'll find it, the rainbow connection<br>
-                The lovers, the dreamers and me - Kermit, The frog</p>
+                The lovers, the dreamers and me - <span class="quote">Kermit, The frog</span></p>
         </div>
 
-        <div class="section-four">
+        <div id="section-three">
             <div class="action">
-                <p>Call to action! It's time!<br>
-                Sign up for the lyrics to Kermit's musings by clicking the button</p>
-                <button>Sign up</button>
-            </div>
+                <div class="action-words">
+                <p>Call to action! It's time!
+                    <br>
+                Click on the button to see the lyrics to Kermit's musings</p>
+                </div>
+                    <div class="lyrics">
+                    <a href="https://www.smule.com/song/kermit-the-frog-the-muppets-rainbow-connection-karaoke-lyrics/3770583_3770583/arrangement" target="_blank"><button class="lyricalButton">Lyrics</button></a>
+                    </div>
+                </div>
+                    <div class="toTopBtn">
+                    <a href="#main">Return to top</a>
+                    </div>
         </div>
 
-        <div class="section-five">
+        <div id="section-four">
             <footer>Copyright @ The Odin Project 2022</footer>
         </div>
 
