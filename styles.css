@@ -9,7 +9,6 @@ a:hover {
 
 #main {
     background-color: #1F2937;
-    padding: 20px 100px;
 }
 
 header {
@@ -20,12 +19,14 @@ header {
 
 .logo {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     height: 250px;
+    margin: 20px 5px;
 }
 
 .header-links {
     font-size: 20px;
+    margin: 20px 10px;
 }
 
 .header-links a {
@@ -38,6 +39,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin: 50px 0px;
+    padding: 20px 100px;
 }
 
 .banner-text {
@@ -50,13 +52,17 @@ header {
     color: #e5e7eb;
 }
 
+.playButton {
+    background-color: rgb(164, 34, 164);
+}
+
 .placeholder {
     background-color: white;
     color: burlywood;
     font-weight: 800;
     font-size: 20px;
-    padding: 80px;
-
+    padding: 50px;
+    margin: 20px;
 }
 
 .red img, .orange img, .yellow img, .green img, .blue img, .indigo img, .violet img {
@@ -82,7 +88,6 @@ header {
 
 #section-one {
     padding: 100px;
-    /*background-color: #e5e7eb;*/
 }
 
 .rando {
@@ -115,6 +120,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 100px;
 }
 
 .action-words {
@@ -134,6 +140,7 @@ header {
 
 .lyricalButton {
     font-size: 30px;
+    background-color: rgb(24, 164, 192);
 }
 
 .toTopBtn {
